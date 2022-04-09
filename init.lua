@@ -1,3 +1,6 @@
+vim.api.nvim_set_keymap('n', ' ', '', {noremap = true})
+vim.g.mapleader = ' ' 
+
 require('kmaps')
 require('settings')
 require('spell')
