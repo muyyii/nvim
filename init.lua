@@ -9,3 +9,7 @@ require('plugins')
 --TODO: install vim-surround
 require('lsp.treesitter')
 require('colorschemes')
+
+vim.cmd[[autocmd BufWinLeave *.* mkview]]
+vim.cmd[[autocmd BufWinEnter *.* silent loadview]]
+
