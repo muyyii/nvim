@@ -10,6 +10,7 @@ require('plugins')
 require('lsp.treesitter')
 require('colorschemes')
 
-vim.cmd[[autocmd BufWinLeave *.* mkview]]
-vim.cmd[[autocmd BufWinEnter *.* silent loadview]]
+-- READ ABOUT THIS 
+--vim.cmd[[autocmd BufWinLeave *.* mkview]]
+--vim.cmd[[autocmd BufWinEnter *.* silent loadview]]
 
